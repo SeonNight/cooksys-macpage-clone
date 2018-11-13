@@ -12,7 +12,7 @@
 <body>
   <header>
     <nav>
-      <a href="https://www.apple.com/">AppleIcon</a>
+      <a href="https://www.apple.com/"><image src="https://img.icons8.com/ios/2x/mac-os.png" alt="apple icon" width="15"/></a>
       <a href="https://www.apple.com/mac/">Mac</a>
       <a href="https://www.apple.com/ipad/">iPad</a>
       <a href="https://www.apple.com/iphone/">iPhone</a>
@@ -20,37 +20,38 @@
       <a href="https://www.apple.com/tv/">TV</a>
       <a href="https://www.apple.com/music/">Music</a>
       <a href="https://support.apple.com/">Support</a>
-      <a href="#">SearchIcon</a>
-      <a href="#">ShopIcon</a>
+      <a href="#"><image src="http://images.clipartpanda.com/cholera-clipart-9TpeGLnTE.png" alt="search icon" width="15"/></a>
+      <a href="#"><image src="https://orig00.deviantart.net/326a/f/2017/224/3/e/3e68b2f21b71f1f11fae8826bcc4fd5b-dbjfvk4.png" alt="shopping icon" width="15"/></a>
     </nav>
   </header>
   <main>
     <div>
       <div>
-        <a href="https://www.apple.com/macbook-pro/">MacBook Pro</a>
+        <a href="https://www.apple.com/macbook-pro/" class="blackLink"><h1>MacBook Pro</h1></a>
       </div>
-      <div>
+      <div class="row">
         <a href="#">Overview</a>
         <a href="#">macOS</a>
         <a href="#">TechSpecs</a>
-        <button>buy</button>
+        <a href="https://www.apple.com/shop/buy-mac/macbook-pro" class="blue-button">buy</a>
       </div>
     </div>
     <hr>
-    <div>
+    <div class="center">
       <button>13-inch</button>
       <button>15-inch</button>
     </div>
     <hr>
-    <div>
+    <div class="center">
       <img src="" alt="a laptop"/>
       <img src="" alt="another laptop"/>
     </div>
     <hr>
     <div>
       <h1>TouchBar</h1>
-      <p></p>
-      <p>Touch Bar with integrated Touch ID sensor</p>
+      <div>
+        <p>Touch Bar with integrated Touch ID sensor</p>
+      </div>
     </div>
     <hr>
     <div>
@@ -168,8 +169,12 @@
     <hr>
     <div>
       <h1>Graphics</h1>
-      <p>Intel Iris Plus Graphics 640</p>
-      <p>Intel Iris Plus Graphics 655</p>
+      <div>
+        <p>Intel Iris Plus Graphics 640</p>
+      </div>
+      <div>
+        <p>Intel Iris Plus Graphics 655</p>
+      </div>
     </div>
     <hr>
     <div>
@@ -389,29 +394,38 @@
         </div>
       </div>
     </div>
-    <div>
-      <h4>MacBook Pro and the Environment</h4> <!-- Apple icon on the right -->
-      <p>Apple takes a complete produce life cycle apporach to determine our environmental impact. <a href="https://www.apple.com/environment/">Learn more ></a></p>
+    <div class ="row lightgrey-background">
       <div>
-        <h2>MacBook Pro is designed with the following features to reduce its environmental impact:</h2>
-        <!--bullets-->
-        <p>Mercury-free LED-backlit display
-            Arsenic-free display glass
-            BFR-free
-            PVC-free5
-            Beryllium-free
-            Highly recyclable aluminum enclosure
-            Meets ENERGY STAR requirements
-            Rated EPEAT Gold^6</p> <!-- ^6 https://www.apple.com/macbook-pro/specs/#footnote-7 -->
+        <div class = "column">
+        <h4>MacBook Pro and the Environment</h4>
+        <img src ="https://img.icons8.com/ios/2x/mac-os.png" alt="apple icon"/>
+        </div>
+        <p>Apple takes a complete produce life cycle apporach to determine our environmental impact. <a href="https://www.apple.com/environment/">Learn more ></a></p>
       </div>
-      <div>
-        <h2>Apple and the Environment</h2>
-        <p>
-            <a href="https://www.apple.com/environment/">Learn more</a> about Apple’s dedication to reducing the environmental impact of our products and process. Or read our <a href="https://www.apple.com/environment/reports/">Product Environmental Reports</a> for detailed information on the environmental performance of every Apple product.
-        </p>
-        <h2>Apple GiveBack</h2>
-        <p>Letting go of your old Mac is easy with Apple GiveBack. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.</p>
-        <a href="https://www.apple.com/shop/trade-in">See how it works ></a>
+      <div class="column">
+        <div>
+          <h2>MacBook Pro is designed with the following features to reduce its environmental impact:</h2>
+          <!--bullets-->
+          <ul>
+            <li>Mercury-free LED-backlit display</li>
+            <li>Arsenic-free display glass</li>
+            <li>BFR-free</li>
+            <li>PVC-free5</li>
+            <li>Beryllium-free</li>
+            <li>Highly recyclable aluminum enclosure</li>
+            <li>Meets ENERGY STAR requirements</li>
+            <li>Rated EPEAT Gold<a href="https://www.apple.com/macbook-pro/specs/#footnote-7" class="footnote">6</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Apple and the Environment</h2>
+          <p>
+              <a href="https://www.apple.com/environment/">Learn more</a> about Apple’s dedication to reducing the environmental impact of our products and process. Or read our <a href="https://www.apple.com/environment/reports/">Product Environmental Reports</a> for detailed information on the environmental performance of every Apple product.
+          </p>
+          <h2>Apple GiveBack</h2>
+          <p>Letting go of your old Mac is easy with Apple GiveBack. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.</p>
+          <a href="https://www.apple.com/shop/trade-in">See how it works ></a>
+        </div>
       </div>
     </div>
     <hr>
@@ -446,150 +460,163 @@
         <a href="https://www.apple.com/support/products/mac.html">AppleCare+ for Mac</a>
       </div>
     </div>
-    <div>
-      <h2>Applie GiveBack</h2>
-      <h1>Get upt to $1000 for your current computer.*</h1> <!--* https://www.apple.com/macbook-pro/specs/#footnote-1-->
-      <p>Just trade in your eligible computer with Apple GiveBack. It’s good for you and the planet.</p>
-      <a href="https://www.apple.com/us/shop/goto/trade_in">See how it works ></a>
-    </div>
-    <div>
-      <h1>Meet the MacBook Pro lineup.</h1>
-      <div>
-        <img src="" alt="mac book"/>
-        <h2>13-inch</h2>
-        <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+    <footer class = "lightgrey-background">
+      <div class="row">
+        <div>
+        <h2>Applie GiveBack</h2>
+        </div>
+        <div>
+        <h1>Get upt to $1000 for your current computer.<a class="footnote" href="https://www.apple.com/macbook-pro/specs/#footnote-1">*</a></h1>
+        </div>
+        <div>
+        <p>Just trade in your eligible computer with Apple GiveBack. It’s good for you and the planet.</p>
+        </div>
+        <div>
+        <a href="https://www.apple.com/us/shop/goto/trade_in">See how it works ></a>
+        </div>
       </div>
       <div>
-        <img src="" alt="mac book"/>
-        <h2>13-inch with Touch Bar</h2>
-        <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+        <h1>Meet the MacBook Pro lineup.</h1>
+        <div>
+          <img src="" alt="mac book"/>
+          <h2>13-inch</h2>
+          <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+        </div>
+        <div>
+          <img src="" alt="mac book"/>
+          <h2>13-inch with Touch Bar</h2>
+          <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+        </div>
+        <div>
+          <img src="" alt="mac book"/>
+          <h2>15-inch with Touch Bar</h2>
+          <a href="https://www.apple.com/us/shop/goto/macbook_pro/15_inch">Shop now ></a>
+        </div>
       </div>
       <div>
-        <img src="" alt="mac book"/>
-        <h2>15-inch with Touch Bar</h2>
-        <a href="https://www.apple.com/us/shop/goto/macbook_pro/15_inch">Shop now ></a>
-      </div>
-    </div>
-    <div>
-      <a href="https://www.apple.com/mac/compare/">Compare all Mac models ></a>
-    </div>
-    <div>
-      <div>
-        <img src="" alt="box"/>
-        <h2>Fast, free delivery</h2>
-        <p>Choose free delivery or pick up available items at an Apple Store.</p>
-        <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more ></a>
-      </div>
-      <div>
-        <img src="" alt="coin"/>
-        <h2>Special financing</h2>
-        <p>Apply for special financing and earn rewards</p>
-        <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more ></a>
-      </div>
-      <div>
-        <img src="" alt="message"/>
-        <h2>Get help buyingy</h2>
-        <p>have a question? Call a Specialist or chat online. Call 1-800-MY-Apple</p>
-        <a href="https://www.apple.com/us/shop/goto/chat/start?pg=COM:macbook-pro_specs&ap=COM">Chat now ></a>
-      </div>
-      <div>
-        <img src="" alt="gear"/>
-        <h2>Personal Setup</h2>
-        <p>We'll show you how to get the most out of your new Mac, online or in store.</p>
-        <a href="https://www.apple.com/us/shop/goto/personal_setup">Learn more ></a>
-      </div>
-    </div>
-    <hr>
-    <!--REALLY tiny faded text-->
-    <div>
-      <p>* Trade-in values will vary based on the condition, year, and configuration of your trade-in device. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Store Gift Card. Not all devices are eligible for credit. More details are available from Apple’s Mac trade‑in partner and Apple’s iPhone, iPad, and Apple Watch trade‑in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Payments are based on the received device matching the description you provided when your estimate was made. Apple reserves the right to refuse or limit the quantity of any device for any reason. In the Apple Store: Offer only available on presentation of a valid, government-issued photo ID (local law may require saving this information). Value of your current device may be applied toward purchase of a new Apple device. Offer may not be available in all stores. Some stores may have additional requirements.
-        1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.
-        Testing conducted by Apple in June 2018 using preproduction 2.3GHz quad-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 512GB SSD; and preproduction 2.6GHz 6-core Intel Core i7-based 15-inch MacBook Pro systems with 16GB of RAM and 512GB SSD. Testing conducted by Apple in May 2017 using preproduction 2.3GHz dual-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 1TB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 12 clicks from bottom or 75%. The iTunes movie playback test measures battery life by playing back HD 1080p content with display brightness set to 12 clicks from bottom or 75%. The standby test measures battery life by allowing a system, connected to a wireless network and signed in to an iCloud account, to enter standby mode with Safari and Mail applications launched and all system settings left at default. Battery life varies by use and configuration. See www.apple.com/batteries for more information.
-        Weight varies by configuration and manufacturing process.
-        iMovie, GarageBand, Pages, Numbers, and Keynote are available on the Mac App Store. Downloading apps requires an Apple ID and a device that is compatible with the OS version required for each app.
-        PVC-free AC power cord available in all regions except India and South Korea.
-        MacBook Pro achieved a Gold rating from EPEAT in the U.S. and Canada.
-      </p>
-    </div>
-    <hr>
-    <footer>
-      <div>
-        <a href="https://www.apple.com/">A apple Icon</a> >
-        <a href="https://www.apple.com/mac/">Mac</a> >
-        <a href="https://www.apple.com/macbook-pro/">MacBook Pro</a> >
-        <p>Technical Specifications</p>
+        <a href="https://www.apple.com/mac/compare/">Compare all Mac models ></a>
       </div>
       <div>
         <div>
+          <img src="" alt="box"/>
+          <h2>Fast, free delivery</h2>
+          <p>Choose free delivery or pick up available items at an Apple Store.</p>
+          <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more ></a>
+        </div>
+        <div>
+          <img src="" alt="coin"/>
+          <h2>Special financing</h2>
+          <p>Apply for special financing and earn rewards</p>
+          <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more ></a>
+        </div>
+        <div>
+          <img src="" alt="message"/>
+          <h2>Get help buyingy</h2>
+          <p>have a question? Call a Specialist or chat online. Call 1-800-MY-Apple</p>
+          <a href="https://www.apple.com/us/shop/goto/chat/start?pg=COM:macbook-pro_specs&ap=COM">Chat now ></a>
+        </div>
+        <div>
+          <img src="" alt="gear"/>
+          <h2>Personal Setup</h2>
+          <p>We'll show you how to get the most out of your new Mac, online or in store.</p>
+          <a href="https://www.apple.com/us/shop/goto/personal_setup">Learn more ></a>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <p class = "legal-jargon">* Trade-in values will vary based on the condition, year, and configuration of your trade-in device. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Store Gift Card. Not all devices are eligible for credit. More details are available from Apple’s Mac trade‑in partner and Apple’s iPhone, iPad, and Apple Watch trade‑in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Payments are based on the received device matching the description you provided when your estimate was made. Apple reserves the right to refuse or limit the quantity of any device for any reason. In the Apple Store: Offer only available on presentation of a valid, government-issued photo ID (local law may require saving this information). Value of your current device may be applied toward purchase of a new Apple device. Offer may not be available in all stores. Some stores may have additional requirements.
+          1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.
+          Testing conducted by Apple in June 2018 using preproduction 2.3GHz quad-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 512GB SSD; and preproduction 2.6GHz 6-core Intel Core i7-based 15-inch MacBook Pro systems with 16GB of RAM and 512GB SSD. Testing conducted by Apple in May 2017 using preproduction 2.3GHz dual-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 1TB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 12 clicks from bottom or 75%. The iTunes movie playback test measures battery life by playing back HD 1080p content with display brightness set to 12 clicks from bottom or 75%. The standby test measures battery life by allowing a system, connected to a wireless network and signed in to an iCloud account, to enter standby mode with Safari and Mail applications launched and all system settings left at default. Battery life varies by use and configuration. See www.apple.com/batteries for more information.
+          Weight varies by configuration and manufacturing process.
+          iMovie, GarageBand, Pages, Numbers, and Keynote are available on the Mac App Store. Downloading apps requires an Apple ID and a device that is compatible with the OS version required for each app.
+          PVC-free AC power cord available in all regions except India and South Korea.
+          MacBook Pro achieved a Gold rating from EPEAT in the U.S. and Canada.
+        </p>
+      </div>
+      <hr>
+      <div>
+        <a class="grey-link" href="https://www.apple.com/">A apple Icon</a> >
+        <a class="grey-link" href="https://www.apple.com/mac/">Mac</a> >
+        <a class="grey-link" href="https://www.apple.com/macbook-pro/">MacBook Pro</a> >
+        <p>Technical Specifications</p>
+      </div>
+      <div class="top">
+        <div>
           <h5>Shop and Learn</h5>
-          <a href="https://www.apple.com/mac/">Mac</a>
-          <a href="https://www.apple.com/ipad/">iPad</a>
-          <a href="https://www.apple.com/iphone/">iPhone</a>
-          <a href="https://www.apple.com/watch/">Watch</a>
-          <a href="https://www.apple.com/tv/">TV</a>
-          <a href="https://www.apple.com/music/">Music</a>
-          <a href="https://www.apple.com/itunes/">iTunes</a>
-          <a href="https://www.apple.com/homepod/">HomePod</a>
-          <a href="https://www.apple.com/ipod-touch/">iPod touch</a>
-          <a href="https://www.apple.com/us/shop/goto/buy_accessories">Accessories</a>
-          <a href="https://www.apple.com/us/shop/goto/giftcards">Gfit Cards</a>
+          <a class="grey-link" href="https://www.apple.com/mac/">Mac</a>
+          <a class="grey-link" href="https://www.apple.com/ipad/">iPad</a>
+          <a class="grey-link" href="https://www.apple.com/iphone/">iPhone</a>
+          <a class="grey-link" href="https://www.apple.com/watch/">Watch</a>
+          <a class="grey-link" href="https://www.apple.com/tv/">TV</a>
+          <a class="grey-link" href="https://www.apple.com/music/">Music</a>
+          <a class="grey-link" href="https://www.apple.com/itunes/">iTunes</a>
+          <a class="grey-link" href="https://www.apple.com/homepod/">HomePod</a>
+          <a class="grey-link" href="https://www.apple.com/ipod-touch/">iPod touch</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/buy_accessories">Accessories</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/giftcards">Gfit Cards</a>
         </div>
         <div>
           <h5>Apple Store</h5>
-          <a href="https://www.apple.com/retail/">Find a Store</a>
-          <a href="https://www.apple.com/retail/geniusbar/">Genius Bar</a>
-          <a href="https://www.apple.com/today/">Today at Apple</a>
-          <a href="https://www.apple.com/today/camp/">Apple Camp</a>
-          <a href="https://www.apple.com/retail/fieldtrip/">Field Trip</a>
-          <a href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Applie Store App</a>
-          <a href="https://www.apple.com/us/shop/goto/special_deals">Refurbished and Clearance</a>
-          <a href="https://www.apple.com/us/shop/goto/payment_plan">Financing</a>
-          <a href="https://www.apple.com/us/shop/goto/trade_in">Apple GiveBack</a>
-          <a href="https://www.apple.com/us/shop/goto/account">Order Status</a>
-          <a href="https://www.apple.com/us/shop/goto/help">Shopping Help</a>
+          <a class="grey-link" href="https://www.apple.com/retail/">Find a Store</a>
+          <a class="grey-link" href="https://www.apple.com/retail/geniusbar/">Genius Bar</a>
+          <a class="grey-link" href="https://www.apple.com/today/">Today at Apple</a>
+          <a class="grey-link" href="https://www.apple.com/today/camp/">Apple Camp</a>
+          <a class="grey-link" href="https://www.apple.com/retail/fieldtrip/">Field Trip</a>
+          <a class="grey-link" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Applie Store App</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/special_deals">Refurbished and Clearance</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/payment_plan">Financing</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/trade_in">Apple GiveBack</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/account">Order Status</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/help">Shopping Help</a>
         </div>
         <div>
           <h5>For Education</h5>
-          <a href="https://www.apple.com/education/">Apple and Education</a>
-          <a href="https://www.apple.com/us/shop/goto/educationrouting">Shop for College</a>
+          <a class="grey-link" href="https://www.apple.com/education/">Apple and Education</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/educationrouting">Shop for College</a>
           <h5>For Business</h5>
-          <a href="https://www.apple.com/business/">Apple and Business</a>
-          <a href="https://www.apple.com/retail/business/">Shop for Business</a>
+          <a class="grey-link" href="https://www.apple.com/business/">Apple and Business</a>
+          <a class="grey-link" href="https://www.apple.com/retail/business/">Shop for Business</a>
         </div>
         <div>
           <h5>Account</h5>
-          <a href="https://appleid.apple.com/us/">Manage Your Apple ID</a>
-          <a href="https://www.apple.com/us/shop/goto/account">Apple Store Account</a>
-          <a href="https://www.icloud.com/">iCloud.com</a>
+          <a class="grey-link" href="https://appleid.apple.com/us/">Manage Your Apple ID</a>
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/account">Apple Store Account</a>
+          <a class="grey-link" href="https://www.icloud.com/">iCloud.com</a>
           <h5>Apple Values</h5>
-          <a href="https://www.apple.com/accessibility/">Accessibility</a>
-          <a href="https://www.apple.com/education/connectED/">Education</a>
-          <a href="https://www.apple.com/environment/">Environment</a>
-          <a href="https://www.apple.com/diversity/">Inclusion and Diversity</a>
-          <a href="https://www.apple.com/privacy/">Privacy</a>
-          <a href="https://www.apple.com/supplier-responsibility/">Suppiler Responsibility</a>
+          <a class="grey-link" href="https://www.apple.com/accessibility/">Accessibility</a>
+          <a class="grey-link" href="https://www.apple.com/education/connectED/">Education</a>
+          <a class="grey-link" href="https://www.apple.com/environment/">Environment</a>
+          <a class="grey-link" href="https://www.apple.com/diversity/">Inclusion and Diversity</a>
+          <a class="grey-link" href="https://www.apple.com/privacy/">Privacy</a>
+          <a class="grey-link" href="https://www.apple.com/supplier-responsibility/">Suppiler Responsibility</a>
         </div>
         <div>
           <h5>About Apple</h5>
-          <a href="https://www.apple.com/newsroom/">Newsroom</a>
-          <a href="https://www.apple.com/leadership/">Apple Leadership</a>
-          <a href="https://www.apple.com/jobs/us/">Job Opportunities</a>
-          <a href="http://investor.apple.com/">Investors</a>
-          <a href="https://www.apple.com/apple-events/">Events</a>
-          <a href="https://www.apple.com/contact/">Contact Apple</a>
+          <a class="grey-link" href="https://www.apple.com/newsroom/">Newsroom</a>
+          <a class="grey-link" href="https://www.apple.com/leadership/">Apple Leadership</a>
+          <a class="grey-link" href="https://www.apple.com/jobs/us/">Job Opportunities</a>
+          <a class="grey-link" href="http://investor.apple.com/">Investors</a>
+          <a class="grey-link" href="https://www.apple.com/apple-events/">Events</a>
+          <a class="grey-link" href="https://www.apple.com/contact/">Contact Apple</a>
         </div>
       </div>
-      <p>More ways to shop: Visit an Apple Store, call 1-800-My-Apple, jor fine a reseller</p>
+      <div class="legal-jargon">
+        <p>More ways to shop: Visit an <a href="https://www.apple.com/retail/">Apple Store</a>, call 1-800-My-Apple, or <a href="https://locate.apple.com/">find a reseller</a></p>
+      </div>
       <hr>
-      <div>
-        <p>Copyright @ 2018 Apple Inc. All rights reserved.</p>
-        <a href="https://www.apple.com/privacy/privacy-policy/">Private Policy</a> |
-        <a href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a> |
-        <a href="https://www.apple.com/us/shop/goto/help/sales_refunds">Sales and Refuns</a> |
-        <a href="https://www.apple.com/legal/">Legal</a> |
-        <a href="https://www.apple.com/sitemap/">Site Map</a>
-        <img src="" alt="american buble"/>
-        <a href="https://www.apple.com/choose-country-region/">United States</a> 
+      <div class="row">
+        <div class="column">
+          <p class="legal-jargon">Copyright @ 2018 Apple Inc. All rights reserved.</p>
+          <img src="" alt="american buble"/>
+          <a class="grey-link" href="https://www.apple.com/choose-country-region/">United States</a> 
+        </div>
+        <div class="column">
+          <a class="grey-link" href="https://www.apple.com/privacy/privacy-policy/">Private Policy</a> |
+          <a class="grey-link" href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a> |
+          <a class="grey-link" href="https://www.apple.com/us/shop/goto/help/sales_refunds">Sales and Refuns</a> |
+          <a class="grey-link" href="https://www.apple.com/legal/">Legal</a> |
+          <a class="grey-link" href="https://www.apple.com/sitemap/">Site Map</a>
+        </div>
       </div>
     </footer>
   </main>

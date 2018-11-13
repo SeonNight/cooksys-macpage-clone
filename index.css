@@ -1,32 +1,81 @@
+html {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 nav {
     display: flex;
-    background: black;
+    justify-content: space-between;
+    height: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 10pt;
+}
+
+header {
+    display: block;
+    max-height: none;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    background: rgba(0,0,0,0.8);
 }
 
 main {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 div {
     margin: 10px;
+    padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 div > div {
-    justify-content: space-between;
+    align-content: center;
     flex-direction: column;
 }
+
 h1 {
     text-align: left;
 }
-a {
-    text-decoration: none;
-    color: blue;
+h2 {
+    font-size: 12pt;
+}
+h4 {
+    font-size: 20pt;
+    color: #1a66ff;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
 }
 
+button {
+    background-color: white;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px 10px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4d88ff;
+}
+a:hover {
+    text-decoration-line: underline;
+}
 nav > a:link {
     color: white;
 }
@@ -36,5 +85,72 @@ nav > a:hover {
 }
 
 nav > a:visited {
+    color: grey;
+}
+
+.row {
+    flex-direction: column;
+}
+.column {
+    flex-direction: row;
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.top {
+    align-items: flex-start;
+}
+.blackLink {
+    color: black;
+}
+
+.content {
+    align-content: center;
+    flex-direction: column;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
+    border: 1px solid darkblue;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px 10px;
+    padding: 2px;
+}
+.blue-button:hover {
+    background-color: lightblue;
+}
+.grey-link {
+    font-size: 9pt;
+}
+.grey-link:link {
+    color: rgb(88, 88, 88);
+}
+.grey-link:hover {
+    text-decoration-line: underline;
+}
+.black {
+    color: black;
+}
+.lightgrey-background {
+    background: #f2f2f2;
+}
+
+.footnote {
+    font-size: 50%;
+    color: rgb(88, 88, 88);
+}
+.footnote:hover {
+    text-decoration-line: none;
+}
+.legal-jargon {
+    font-size: 8pt;
     color: grey;
 }
