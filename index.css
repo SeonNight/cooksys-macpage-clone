@@ -37,8 +37,6 @@ main {
 }
 
 div {
-    margin: 10px;
-    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -76,15 +74,16 @@ h5{
     font-size: 20pt;
 }
 p {
-    padding: 5px;
-    margin: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    overflow-wrap: break-word
 }
 li {
     padding: 5px;
     margin: 5px;
 }
-img {
-    margin: 5px 10px;
+.image-fit {
+    width: 100%;
 }
 button {
     background-color: white;
@@ -121,11 +120,12 @@ nav > a:visited {
 }
 
 .divide {
+    margin: 10px;
+    padding: 15px;
     border-bottom: lightgrey solid 1px;
 }
 
 .row {
-    align-content: center;
     flex-direction: column;
 }
 .column {
@@ -137,7 +137,6 @@ nav > a:visited {
 }
 .center {
     justify-content: center;
-    flex-direction: column;
     text-align: center;
 }
 .center-justify {
@@ -213,26 +212,30 @@ nav > a:visited {
     color: grey;
 }
 
-.title {
-    width: 20%;
-    align-content: flex-start;
-    justify-content: flex-start;
-}
-
-.split {
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    padding: 10px;
-    float: left;
-    min-height: 2px;
-    width: 50%;
-}
-
 .cover {
     width: 14px;
     height: 18px;
     object-fit: cover;
     object-position: 0 0;
+}
+.split-total {
+    margin: 10px;
+    padding: 15px;
+    width:100%;
+}
+.split-title {
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+}
+.split-main {
+    margin: 10px;
+    padding: 5px;
+    width: 75%;
+}
+
+.split-content {
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
 }
