@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+  <!--Head nav bar-->
   <header>
     <nav>
-      <a href="https://www.apple.com/"><image src="https://img.icons8.com/ios/2x/mac-os.png" alt="apple icon" width="15"/></a>
+      <a href="https://www.apple.com/"><image src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg" alt="apple icon"/></a>
       <a href="https://www.apple.com/mac/">Mac</a>
       <a href="https://www.apple.com/ipad/">iPad</a>
       <a href="https://www.apple.com/iphone/">iPhone</a>
@@ -20,154 +21,156 @@
       <a href="https://www.apple.com/tv/">TV</a>
       <a href="https://www.apple.com/music/">Music</a>
       <a href="https://support.apple.com/">Support</a>
-      <a href="#"><image src="http://images.clipartpanda.com/cholera-clipart-9TpeGLnTE.png" alt="search icon" width="15"/></a>
-      <a href="#"><image src="https://orig00.deviantart.net/326a/f/2017/224/3/e/3e68b2f21b71f1f11fae8826bcc4fd5b-dbjfvk4.png" alt="shopping icon" width="15"/></a>
+      <a href="#"><image src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg" alt="search icon"/></a>
+      <a href="#"><image src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg" alt="shopping icon"/></a>
     </nav>
   </header>
   <main>
-    <div>
+    <!--Second nav bar?-->
+    <div class="column space-between divide">
       <div>
         <a href="https://www.apple.com/macbook-pro/" class="blackLink"><h1>MacBook Pro</h1></a>
       </div>
-      <div class="row">
-        <a href="#">Overview</a>
-        <a href="#">macOS</a>
-        <a href="#">TechSpecs</a>
+      <div class="column">
+        <div>
+        <a class="grey-link" href="#">Overview</a>
+        </div>
+        <div>
+        <a class="grey-link" href="#">macOS</a>
+        </div>
+        <div>
+        <a class="grey-link" href="#">TechSpecs</a>
+        </div>
+        <div>
         <a href="https://www.apple.com/shop/buy-mac/macbook-pro" class="blue-button">buy</a>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="center">
+    <!--Two size buttons-->
+    <div class="center-justify divide">
       <button>13-inch</button>
       <button>15-inch</button>
     </div>
-    <hr>
-    <div class="center">
-      <img src="" alt="a laptop"/>
-      <img src="" alt="another laptop"/>
+    <!--Two laptops-->
+    <div class="center-justify divide">
+      <img width="200" src="https://www.apple.com/v/macbook-pro/s/images/specs/mbp13_large.jpg" alt="a laptop"/>
+      <img width="200" src="https://www.apple.com/v/macbook-pro/s/images/specs/touchbar13_mbp_large.jpg" alt="another laptop"/>
     </div>
-    <hr>
-    <div>
-      <h1>TouchBar</h1>
+    <!--Touch Bar-->
+    <div class="divide">
+        <h1>Touch Bar</h1>
       <div>
         <p>Touch Bar with integrated Touch ID sensor</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Price-->
+    <div class="divide">
       <h1>Price</h1>
       <p>$1299</p>
       <p>$1499</p>
       <p>$1799</p>
       <p>$1999</p>
     </div>
-    <hr>
+    <!--Finish-->
     <div>
       <h1>Finish</h1>
-      <p>image of a silver and space gray apple laptop</p>
-      <p>Silver</p>
-      <p>Space Gray</p>
-    </div>
-    <hr>
-    <div>
-      <h1>Display</h1>
       <div>
-        <h2>Retina display</h2>
-        <p>13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors
-
-            Supported scaled resolutions:
-            
-            1680 by 1050
-            
-            1440 by 900
-            
-            1024 by 640
-            
-            500 nits brightness
-            
-            Wide color (P3)</p>
-      </div>
-      <div>
-        <h2>Retina display</h2>
-        <p>13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors
-
-            Supported scaled resolutions:
-            
-            1680 by 1050
-            
-            1440 by 900
-            
-            1024 by 640
-            
-            500 nits brightness
-            
-            Wide color (P3)
-            
-            True Tone technology</p>
+        <img src="https://www.apple.com/v/macbook-pro/s/images/specs/finish_lockup_mbp13_large.jpg" alt="image of a silver and space gray apple laptop"/>
+        <div class="column">
+          <p>Silver</p>
+          <p>Space Gray</p>
+        </div>
       </div>
     </div>
-    <hr>
-    <div>
-      <h1>Processor</h1>
-      <div>
+    <!--Display-->
+    <div class="divide">
+      <div class="title">
+        <h1>Display</h1>
+      </div>
+      <div class="column">
+        <div class="split">
+          <h2>Retina display</h2>
+          <p>13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors</p>
+          <p>Supported scaled resolutions:</p>
+          <ul>
+            <li>1680 by 1050</li>
+            <li>1440 by 900</li>
+            <li>1024 by 640</li>
+          </ul>
+          <p>500 nits brightness</p>
+          <p>Wide color (P3)</p>
+        </div>
+        <div class="split">
+          <h2>Retina display</h2>
+          <p>13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors</p>
+          <p>Supported scaled resolutions:</p>
+          <ul>
+            <li>1680 by 1050</li>
+            <li>1440 by 900</li>
+            <li>1024 by 640</li>
+          </ul>
+          <p>500 nits brightness</p>
+          <p>Wide color (P3)</p>
+          <p>True Tone technology</p>
+        </div>
+      </div>
+    </div>
+    <!--Processor-->
+    <div class="divide">
+      <div class="title">
+        <h1>Processor</h1>
+      </div>
+      <div class="split">
         <h2>13-inch model</h2>
-        <p>2.3GHz dual-core Intel Core i5, Turbo Boost up to 3.6GHz, with 64MB of eDRAM
-
-            Configurable to 2.5GHz dual-core Intel Core i7, Turbo Boost up to 4.0GHz, with 64MB of eDRAM</p>
+        <p>2.3GHz dual-core Intel Core i5, Turbo Boost up to 3.6GHz, with 64MB of eDRAM</p>
+        <p>Configurable to 2.5GHz dual-core Intel Core i7, Turbo Boost up to 4.0GHz, with 64MB of eDRAM</p>
       </div>
-      <div>
+      <div class="split">
         <h2>13-inch model with Touch Bar</h2>
-        <p>2.3GHz quad-core Intel Core i5, Turbo Boost up to 3.8GHz, with 128MB of eDRAM
-
-            Configurable to 2.7GHz quad-core Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM</p>
+        <p>2.3GHz quad-core Intel Core i5, Turbo Boost up to 3.8GHz, with 128MB of eDRAM</p>
+        <p>Configurable to 2.7GHz quad-core Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM</p>
       </div>
     </div>
-    <hr>
-    <div>
-      <h1>Storage</h1> <!-- ^1 which is a link "https://www.apple.com/macbook-pro/specs/#footnote-2"-->
+    <!--Storage-->
+    <div class="divide">
+      <h1>Storage<a href="https://www.apple.com/macbook-pro/specs/#footnote-2" class="footnote">1</a></h1>
       <div>
         <h3>128GB</h3>
-        <p>128GB SSD
-
-            Configurable to 256GB, 512GB, or 1TB SSD</p>
+        <p>128GB SSD</p>
+        <p>Configurable to 256GB, 512GB, or 1TB SSD</p>
       </div>
       <div>
         <h3>256GB</h3>
-        <p>256GB SSD
-
-            Configurable to 512GB or 1TB SSD</p>
+        <p>256GB SSD</p>
+        <p>Configurable to 512GB or 1TB SSD</p>
       </div>
       <div>
         <h3>256GB</h3>
-        <p>256GB SSD
-
-            Configurable to 512GB, 1TB, or 2TB SSD</p>
+        <p>256GB SSD</p>
+        <p>Configurable to 512GB, 1TB, or 2TB SSD</p>
       </div>
       <div>
         <h3>512GB</h3>
-        <p>512GB SSD
-
-            Configurable to 1TB or 2TB SSD</p>
+        <p>512GB SSD</p>
+        <p>Configurable to 1TB or 2TB SSD</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Memory-->
+    <div class="divide">
       <h1>Memory</h1>
       <div>
         <h3>8GB</h3>
-        <p>8GB of 2133MHz LPDDR3 onboard memory
-
-            Configurable to 16GB of memoryD</p>
+        <p>8GB of 2133MHz LPDDR3 onboard memory</p>
+        <p>Configurable to 16GB of memoryD</p>
       </div>
       <div>
         <h3>8GB</h3>
-        <p>8GB of 2133MHz LPDDR3 onboard memory
-
-            Configurable to 16GB of memoryD</p>
+        <p>8GB of 2133MHz LPDDR3 onboard memory</p>
+        <p>Configurable to 16GB of memoryD</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Graphics-->
+    <div class="divide">
       <h1>Graphics</h1>
       <div>
         <p>Intel Iris Plus Graphics 640</p>
@@ -176,51 +179,53 @@
         <p>Intel Iris Plus Graphics 655</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Charing and Expansion-->
+    <div class="divide">
       <h1>Charging and Expansion</h1>
       <div>
-        <p>Two Thunderbolt 3 (USB-C) ports with support for:
-
-            Charging
-            DisplayPort
-            Thunderbolt (up to 40 Gbps)
-            USB 3.1 Gen 2 (up to 10 Gbps)</p>
-        <img src="" alt="image of a laptop headphone jack"/>
-        <img src="" alt="image of a thunderbolt3"/>
-      </div>
-      <div>
-        <p>Four Thunderbolt 3 (USB-C) ports with support for:
-
-            Charging
-            DisplayPort
-            Thunderbolt (up to 40 Gbps)
-            USB 3.1 Gen 2 (up to 10 Gbps)</p>
-        <img src="" alt="image of a laptop headphone jack and thunderbolt 3"/>
-        <img src="" alt="image of a thunderbolt3"/>
+        <div class="column">
+          <div>
+            <p>Two Thunderbolt 3 (USB-C) ports with support for:</p>
+            <p>Charging</p>
+            <p>DisplayPort</p>
+            <p>Thunderbolt (up to 40 Gbps)</p>
+            <p>USB 3.1 Gen 2 (up to 10 Gbps)</p>
+          </div>
+          <div>
+            <p>Four Thunderbolt 3 (USB-C) ports with support for:</p>
+            <p>Charging</p>
+            <p>DisplayPort</p>
+            <p>Thunderbolt (up to 40 Gbps)</p>
+            <p>USB 3.1 Gen 2 (up to 10 Gbps)</p>
+          </div>
+        </div>
+        <img src="https://www.apple.com/v/macbook-pro/s/images/specs/ports13_large.jpg" alt="image of a laptop headphone jack"/>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Keyboard and Trackpad-->
+    <div class="divide">
       <h1>Keyboard and Trackpad</h1>
       <div>
-        <h2>Full-size backlit keyboard with:</h2>
-        <p>78 (U.S.) or 79 (ISO) keys including 12 function keys and 4 arrow keys
-            Ambient light sensor
-            Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures</p>
-        <img src="" alt="image of a keyboard"/>
-      </div>
-      <div>
-        <h2>Full0size backlit keyboard with:</h2>
-        <p>64 (U.S.) or 65 (ISO) keys including 4 arrow keys
-            Touch Bar with integrated Touch ID sensor
-            Ambient light sensor
-            Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures</p>
-        <img src="" alt="image of a keyboard"/>
+        <div class="column">
+          <div>
+            <h2>Full-size backlit keyboard with:</h2>
+            <p>78 (U.S.) or 79 (ISO) keys including 12 function keys and 4 arrow keys</p>
+            <p>Ambient light sensor</p>
+            <p>Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures</p>
+          </div>
+          <div>
+            <h2>Full-size backlit keyboard with:</h2>
+            <p>64 (U.S.) or 65 (ISO) keys including 4 arrow keys</p>
+            <p>Touch Bar with integrated Touch ID sensor</p>
+            <p>Ambient light sensor</p>
+            <p>Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures</p>
+          </div>
+        </div>
+        <img src="https://www.apple.com/v/macbook-pro/s/images/specs/mbp13_keyboard_large.jpg" alt="image of a keyboard"/>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Wireless-->
+    <div class="divide">
       <h1>Wireless</h1>
       <div>
         <h2>Wi-Fi</h2>
@@ -235,93 +240,114 @@
         <p>Bluetooth 5.0 wireless technology</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Camera-->
+    <div class="divide">
       <h1>Camera</h1>
       <div>
         <p>720p FaceTime HD camera</p>
       </div>
       <div></div>
     </div>
-    <hr>
-    <div>
+    <!--Video Support-->
+    <div class="divide">
       <h1>Video Support</h1>
       <div>
         <h2>Simultaneously supports full native resolution on the built-in display at millions of colors and:</h2>
-        <p>One display with 5120-by-2880 resolution at 60Hz at over a billion colors
-            Up to two displays with 4096-by-2304 resolution at 60Hz at millions of colors
-            Up to two displays with 3840-by-2160 resolution at 60Hz at over a billion colors</p>
+        <p>One display with 5120-by-2880 resolution at 60Hz at over a billion colors</p>
+        <p>Up to two displays with 4096-by-2304 resolution at 60Hz at millions of colors</p>
+        <p>Up to two displays with 3840-by-2160 resolution at 60Hz at over a billion colors</p>
         <h2>Thunderbolt 3 digital video output</h2>
-        <p>Native DisplayPort output over USB‑C
-            VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)</p>
+        <p>Native DisplayPort output over USB‑C</p>
+        <p>VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Audio-->
+    <div class="divide">
       <h1>Audio</h1>
       <div>
         <h2>13-inch model</h2>
-        <p>Stereo speakers with high dynamic range
-            Two microphones
-            3.5 mm headphone jack</p>
+        <p>Stereo speakers with high dynamic range</p>
+        <p>Two microphones</p>
+        <p>3.5 mm headphone jack</p>
       </div>
       <div>
         <h2>13-inch model with Touch Bar</h2>
-        <p>Stereo speakers with high dynamic range
-            Three microphones
-            3.5 mm headphone jack</p>
+        <p>Stereo speakers with high dynamic range</p>
+        <p>Three microphones</p>
+        <p>3.5 mm headphone jack</p>
       </div>
     </div>
-    <hr>
-    <div>
-      <h1>Battery and Power</h1><!-- ^2 which is a link "https://www.apple.com/macbook-pro/specs/#footnote-3"-->
+    <!--Battery and Power-->
+    <div class="divide">
+      <h1>Battery and Power<a href="https://www.apple.com/macbook-pro/specs/#footnote-3" class="footnote">2</a></h1>
       <div>
-        <p>
-            Up to 10 hours wireless web
-            Up to 10 hours iTunes movie playback
-            Up to 30 days of standby time
-            Built-in 54.5-watt-hour lithium-polymer battery
-            61W USB-C Power Adapter</p>
+        <p>Up to 10 hours wireless web</p>
+        <p>Up to 10 hours iTunes movie playback</p>
+        <p>Up to 30 days of standby time</p>
+        <p>Built-in 54.5-watt-hour lithium-polymer battery</p>
+        <p>61W USB-C Power Adapter</p>
       </div>
       <div>
-        <p>Up to 10 hours wireless web
-            Up to 10 hours iTunes movie playback
-            Up to 30 days of standby time
-            Built-in 58.0-watt-hour lithium-polymer battery
-            61W USB-C Power Adapter</p>
+        <p>Up to 10 hours wireless web</p>
+        <p>Up to 10 hours iTunes movie playback</p>
+        <p>Up to 30 days of standby time</p>
+        <p>Built-in 58.0-watt-hour lithium-polymer battery</p>
+        <p>61W USB-C Power Adapter</p>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Operating Requirements-->
+    <div class="divide">
       <h1>Operating Requirements</h1>
-      <div>
-        <!--Bold-->
-        <p>Line voltage: 100V to 240V AC
-            Frequency: 50Hz to 60Hz
-            Operating temperature: 50° to 95° F (10° to 35° C)
-            Storage temperature: –13° to 113° F (–25° to 45° C)
-            Relative humidity: 0% to 90% noncondensing
-            Operating altitude: tested up to 10,000 feet
-            Maximum storage altitude: 15,000 feet
-            Maximum shipping altitude: 35,000 feet</p>
+      <div class="row">
+        <div>
+          <p><bold>Line voltage:</bold>100V to 240V AC</p>
+        </div>
+        <div>
+          <p><bold>Frequency:</bold>50Hz to 60Hz</p>
+        </div>
+        <div>
+          <p><bold>Operating temperature:</bold>50° to 95° F (10° to 35° C)</p>
+        </div>
+        <div>
+          <p><bold>Storage temperature:</bold>–13° to 113° F (–25° to 45° C)</p>
+        </div>
+        <div>
+          <p><bold>Relative humidity:</bold>0% to 90% noncondensing</p>
+        </div>
+        <div>
+          <p><bold>Operating altitude:</bold>tested up to 10,000 feet</p>
+        </div>
+        <div>
+          <p><bold>Maximum storage altitude:</bold>15,000 feet</p>
+        </div>
+        <div>
+          <p><bold>Maximum shipping altitude:</bold>35,000 feet</p>
+        </div>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Size and Wight-->
+    <div class="divide">
       <h1>Size and Weight</h1>
-      <div>
-        <!--Bold-->
-        <p>Height: 0.59 inch (1.49 cm)
-            Width: 11.97 inches (30.41 cm)
-            Depth: 8.36 inches (21.24 cm)
-            Weight: 3.02 pounds (1.37 kg)3</p>
+      <div class="row">
+        <div>
+          <p><bold>Height:</bold>0.59 inch (1.49 cm)</p>
+        </div>
+        <div>
+          <p><bold>Width:</bold>11.97 inches (30.41 cm)</p>
+        </div>
+        <div>
+          <p><bold>Depth:</bold>8.36 inches (21.24 cm)</p>
+        </div>
+        <div>
+          <p><bold>Weight:</bold>3.02 pounds (1.37 kg)<a href="https://www.apple.com/macbook-pro/specs/#footnote-4" class="footnote">3</a></p>
+        </div>
       </div>
       <div>
-        <img src="" alt="dimentions of laptops"/>
+        <img src="https://www.apple.com/v/macbook-pro/s/images/specs/size_weight15_large.jpg" alt="dimentions of laptops"/>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Operating System-->
+    <div class="divide">
       <h1>Operating System</h1>
       <div>
         <h2>macOS</h2>
@@ -329,88 +355,201 @@
         <a href="https://www.apple.com/macos/mojave/">Learn more ></a>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Accessability-->
+    <div class="divide">
       <h1>Accessibility</h1>
       <div>
-        <p>
-            Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.</p>
+        <p>Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.</p>
         <a href="https://www.apple.com/macos/mojave/">Learn more ></a>
         <div>
           <h2>Features include:</h2>
-          <!--Bullet Points-->
-          <div>
-              VoiceOver
-              Zoom
-              Increase Contrast
-          </div>
-          <div>
-              Reduce Motion
-              Siri and Dictation
-              Switch Control
-          </div>
-          <div>
-              Closed Captions
-              Text to Speech
+          <div class="column">
+            <div>
+              <ul>
+                <li>VoiceOver</li>
+                <li>Zoom</li>
+                <li>Increase Contrast</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Reduce Motion</li>
+                <li>Siri and Dictation</li>
+                <li>Switch Control</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Closed Captions</li>
+                <li>Text to Speech</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <hr>
-    <div>
-      <h1>Built-in Apps</h1><!-- ^4 which is a link "https://www.apple.com/macbook-pro/specs/#footnote-5"-->
-      <img src="" alt="all the ICONS!"/>
+    <!--Built-in Apps-->
+    <div class="divide">
+      <h1>Built-in Apps<a href="https://www.apple.com/macbook-pro/specs/#footnote-5" class="footnote">4</a></h1>
+      <div class="column wrap">
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_photos_large.png" alt="Photo icon"/>
+          <p>Photos</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_imovie_large.png" alt="iMovie icon"/>
+          <p>iMovie</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_garageband_large.png" alt="GrageBand icon"/>
+          <p>GarageBand</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_pages_large.png" alt="Pages icon"/>
+          <p>Pages</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_numbers_large.png" alt="Numbers icon"/>
+          <p>Numbers</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_keynote_large.png" alt="Keynote icon"/>
+          <p>Keynote</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_siri_large.png" alt="Siri icon"/>
+          <p>Siri</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_safari_large.png" alt="Safari icon"/>
+          <p>Safari</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_mail_large.png" alt="Mail icon"/>
+          <p>Mail</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_facetime_large.png" alt="FaceTime icon"/>
+          <p>FaceTime</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_messages_large.png" alt="Messages icon"/>
+          <p>Messages</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_maps_large.png" alt="Maps icon"/>
+          <p>Maps</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_news_large.png" alt="News icon"/>
+          <p>News</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_stocks_large.png" alt="Stocks icon"/>
+          <p>Stocks</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_home_large.png" alt="Home icon"/>
+          <p>Home</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_voicememos_large.png" alt="Vice Memos icon"/>
+          <p>Voice Memos</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_notes_large.png" alt="Notes icon"/>
+          <p>Notes</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_calendar_large.png" alt="Calender icon"/>
+          <p>Calender</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_contacts_large.png" alt="Contacts icon"/>
+          <p>Contacts</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_reminders_large.png" alt="Reminders icon"/>
+          <p>Reminders</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_photobooth_large.png" alt="Photo Booth icon"/>
+          <p>Photo Booth</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_preview_large.png" alt="Preview icon"/>
+          <p>Preview</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_itunes_large.png" alt="iTunes icon"/>
+          <p>iTunes</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_ibooks_large.png" alt="Books icon"/>
+          <p>Books</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_appstore_large.png" alt="App Store icon"/>
+          <p>App Store</p>
+        </div>
+        <div>
+          <img src="https://www.apple.com/v/macbook-pro/s/images/specs/icons_timemachine_large.png" alt="Time Machine"/>
+          <p>Time Machine</p>
+        </div>
+      </div>
     </div>
-    <hr>
-    <div>
+    <!--What's in the Box-->
+    <div class="column divide">
       <h1>What's in the Box</h1>
-      <p>
-          13-inch MacBook Pro
-          61W USB-C Power Adapter
-          USB-C Charge Cable (2 m)</p>
-      <img src="" alt="Laptop and charger"/>
+      <div>
+        <p>13-inch MacBook Pro</p>
+        <p>61W USB-C Power Adapter</p>
+        <p>USB-C Charge Cable (2 m)</p>
+        <img src="https://www.apple.com/v/macbook-pro/s/images/specs/in_the_box13_large.jpg" alt="Laptop and charger"/>
+      </div>
     </div>
-    <hr>
-    <div>
+    <!--Limited Warranty and Service-->
+    <div class="divide">
       <h1>Limited Warranty and Service</h1>
       <div><p>Your MacBook Pro comes with 90 days of complimentary technical support and a one-year limited warranty. Purchase <a href="https://www.apple.com/support/products/mac.html">AppleCare+ for Mac</a> to extend your coverage to three years from your AppleCare+ purchase date and add up to two incidents of accidental damage coverage, each subject to a service fee of $99 for screen damage or external enclosure damage, or $299 for other repairable damage, plus applicable tax. <a href="https://support.apple.com/">Learn more > </a> </p></div>
     </div>
-    <hr>
-    <div>
-      <h1>configure to Order</h1>
+    <div class="divide">
+      <h1>Configure to Order</h1>
       <div>
         <p>Configure your MacBook Pro with these options, only at <a href="https://www.apple.com/shop/buy-mac/macbook-pro">apple.com</a>:</p>
-        <div>
-          <h2>13-inch model</h2>
-          <p>2.5GHz dual-core Intel Core i7, Turbo Boost up to 4.0GHz, with 64MB of eDRAM
-              16GB of 2133MHz LPDDR3 memory
-              256GB, 512GB, or 1TB SSD</p>
-        </div>
-        <div>
-          <h2>13-inch model with Touch Bar</h2>
-          <p>2.7GHz quad-core Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM
-              16GB of 2133MHz LPDDR3 memory
-              512GB, 1TB, or 2TB SSD</p>
+        <div class="column">
+          <div>
+            <h2>13-inch model</h2>
+            <p>2.5GHz dual-core Intel Core i7, Turbo Boost up to 4.0GHz, with 64MB of eDRAM</p>
+            <p>16GB of 2133MHz LPDDR3 memory</p>
+            <p>256GB, 512GB, or 1TB SSD</p>
+          </div>
+          <div>
+            <h2>13-inch model with Touch Bar</h2>
+            <p>2.7GHz quad-core Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM<p>
+            <p>16GB of 2133MHz LPDDR3 memory</p>
+            <p>512GB, 1TB, or 2TB SSD</p>
+          </div>
         </div>
       </div>
     </div>
+    <!--MacBook Pro and the Environment-->
     <div class ="row lightgrey-background">
       <div>
         <div class = "column">
         <h4>MacBook Pro and the Environment</h4>
-        <img src ="https://img.icons8.com/ios/2x/mac-os.png" alt="apple icon"/>
+        <img src ="https://www.apple.com/v/macbook-pro/s/images/specs/environment_large.jpg" alt="apple icon"/>
         </div>
         <p>Apple takes a complete produce life cycle apporach to determine our environmental impact. <a href="https://www.apple.com/environment/">Learn more ></a></p>
       </div>
       <div class="column">
         <div>
           <h2>MacBook Pro is designed with the following features to reduce its environmental impact:</h2>
-          <!--bullets-->
           <ul>
             <li>Mercury-free LED-backlit display</li>
             <li>Arsenic-free display glass</li>
             <li>BFR-free</li>
-            <li>PVC-free5</li>
+            <li>PVC-free<a href="https://www.apple.com/macbook-pro/specs/#footnote-6" class="footnote">5</a></li>
             <li>Beryllium-free</li>
             <li>Highly recyclable aluminum enclosure</li>
             <li>Meets ENERGY STAR requirements</li>
@@ -428,8 +567,8 @@
         </div>
       </div>
     </div>
-    <hr>
-    <div>
+    <!--Accessories-->
+    <div class="divide">
       <h1>Accessories</h1>
       <div>
         <h2>Mac Software</h2>
@@ -460,86 +599,112 @@
         <a href="https://www.apple.com/support/products/mac.html">AppleCare+ for Mac</a>
       </div>
     </div>
+    <!--Tooter-->
     <footer class = "lightgrey-background">
-      <div class="row">
+      <!--Apple Give Back-->
+      <div class="row center">
         <div>
-        <h2>Applie GiveBack</h2>
+          <h2>Apple GiveBack</h2>
         </div>
         <div>
-        <h1>Get upt to $1000 for your current computer.<a class="footnote" href="https://www.apple.com/macbook-pro/specs/#footnote-1">*</a></h1>
+          <h5>Get upt to $1000 for your current computer.<a class="blackLink" href="https://www.apple.com/macbook-pro/specs/#footnote-1">*</a></h5>
         </div>
         <div>
-        <p>Just trade in your eligible computer with Apple GiveBack. It’s good for you and the planet.</p>
+          <p>Just trade in your eligible computer with Apple GiveBack. It’s good for you and the planet.</p>
         </div>
         <div>
-        <a href="https://www.apple.com/us/shop/goto/trade_in">See how it works ></a>
-        </div>
-      </div>
-      <div>
-        <h1>Meet the MacBook Pro lineup.</h1>
-        <div>
-          <img src="" alt="mac book"/>
-          <h2>13-inch</h2>
-          <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
-        </div>
-        <div>
-          <img src="" alt="mac book"/>
-          <h2>13-inch with Touch Bar</h2>
-          <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
-        </div>
-        <div>
-          <img src="" alt="mac book"/>
-          <h2>15-inch with Touch Bar</h2>
-          <a href="https://www.apple.com/us/shop/goto/macbook_pro/15_inch">Shop now ></a>
+          <a href="https://www.apple.com/us/shop/goto/trade_in">See how it works ></a>
         </div>
       </div>
+      <!--Meet the MacBook Pro lineup-->
+      <div class="row center">
+        <h5>Meet the MacBook Pro lineup.</h5>
+        <div class="column">
+          <div>
+            <img src="https://www.apple.com/v/macbook-pro/s/images/shared/compare13_large.png" alt="mac book"/>
+            <h2>13-inch</h2>
+            <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+          </div>
+          <div>
+            <img src="https://www.apple.com/v/macbook-pro/s/images/shared/compare13_touchbar_large.png" alt="mac book"/>
+            <h2>13-inch with Touch Bar</h2>
+            <a href="https://www.apple.com/us/shop/goto/macbook_pro/13_inch">Shop now ></a>
+          </div>
+          <div>
+            <img src="https://www.apple.com/v/macbook-pro/s/images/shared/compare15_touchbar_large.png" alt="mac book"/>
+            <h2>15-inch with Touch Bar</h2>
+            <a href="https://www.apple.com/us/shop/goto/macbook_pro/15_inch">Shop now ></a>
+          </div>
+          </div>
+        </div>
       <div>
         <a href="https://www.apple.com/mac/compare/">Compare all Mac models ></a>
       </div>
-      <div>
+      <!--Options-->
+      <div class="divide">
         <div>
-          <img src="" alt="box"/>
+          <img src="https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/shipping/icon_large.svg" alt="box"/>
           <h2>Fast, free delivery</h2>
           <p>Choose free delivery or pick up available items at an Apple Store.</p>
           <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more ></a>
         </div>
         <div>
-          <img src="" alt="coin"/>
+          <img src="https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/financing/icon_large.svg" alt="coin"/>
           <h2>Special financing</h2>
           <p>Apply for special financing and earn rewards</p>
           <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more ></a>
         </div>
         <div>
-          <img src="" alt="message"/>
+          <img src="https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/help/icon_large.svg" alt="message"/>
           <h2>Get help buyingy</h2>
           <p>have a question? Call a Specialist or chat online. Call 1-800-MY-Apple</p>
           <a href="https://www.apple.com/us/shop/goto/chat/start?pg=COM:macbook-pro_specs&ap=COM">Chat now ></a>
         </div>
         <div>
-          <img src="" alt="gear"/>
+          <img src="https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/personal_setup/icon_large.svg" alt="gear"/>
           <h2>Personal Setup</h2>
           <p>We'll show you how to get the most out of your new Mac, online or in store.</p>
           <a href="https://www.apple.com/us/shop/goto/personal_setup">Learn more ></a>
         </div>
       </div>
-      <hr>
-      <div>
-        <p class = "legal-jargon">* Trade-in values will vary based on the condition, year, and configuration of your trade-in device. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Store Gift Card. Not all devices are eligible for credit. More details are available from Apple’s Mac trade‑in partner and Apple’s iPhone, iPad, and Apple Watch trade‑in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Payments are based on the received device matching the description you provided when your estimate was made. Apple reserves the right to refuse or limit the quantity of any device for any reason. In the Apple Store: Offer only available on presentation of a valid, government-issued photo ID (local law may require saving this information). Value of your current device may be applied toward purchase of a new Apple device. Offer may not be available in all stores. Some stores may have additional requirements.
-          1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.
-          Testing conducted by Apple in June 2018 using preproduction 2.3GHz quad-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 512GB SSD; and preproduction 2.6GHz 6-core Intel Core i7-based 15-inch MacBook Pro systems with 16GB of RAM and 512GB SSD. Testing conducted by Apple in May 2017 using preproduction 2.3GHz dual-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 1TB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 12 clicks from bottom or 75%. The iTunes movie playback test measures battery life by playing back HD 1080p content with display brightness set to 12 clicks from bottom or 75%. The standby test measures battery life by allowing a system, connected to a wireless network and signed in to an iCloud account, to enter standby mode with Safari and Mail applications launched and all system settings left at default. Battery life varies by use and configuration. See www.apple.com/batteries for more information.
-          Weight varies by configuration and manufacturing process.
-          iMovie, GarageBand, Pages, Numbers, and Keynote are available on the Mac App Store. Downloading apps requires an Apple ID and a device that is compatible with the OS version required for each app.
-          PVC-free AC power cord available in all regions except India and South Korea.
-          MacBook Pro achieved a Gold rating from EPEAT in the U.S. and Canada.
+      <!--Legal Jargon-->
+      <div class="row divide">
+        <div class = "legal-jargon">
+          * Trade-in values will vary based on the condition, year, and configuration of your trade-in device. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Store Gift Card. Not all devices are eligible for credit. More details are available from Apple’s Mac trade‑in partner and Apple’s iPhone, iPad, and Apple Watch trade‑in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Payments are based on the received device matching the description you provided when your estimate was made. Apple reserves the right to refuse or limit the quantity of any device for any reason. In the Apple Store: Offer only available on presentation of a valid, government-issued photo ID (local law may require saving this information). Value of your current device may be applied toward purchase of a new Apple device. Offer may not be available in all stores. Some stores may have additional requirements.
+        </div>
+        <div>
+          <ol class = "legal-jargon">
+            <li>
+              1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.
+            </li>
+            <li>
+              Testing conducted by Apple in June 2018 using preproduction 2.3GHz quad-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 512GB SSD; and preproduction 2.6GHz 6-core Intel Core i7-based 15-inch MacBook Pro systems with 16GB of RAM and 512GB SSD. Testing conducted by Apple in May 2017 using preproduction 2.3GHz dual-core Intel Core i5-based 13-inch MacBook Pro systems with 8GB of RAM and 1TB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 12 clicks from bottom or 75%. The iTunes movie playback test measures battery life by playing back HD 1080p content with display brightness set to 12 clicks from bottom or 75%. The standby test measures battery life by allowing a system, connected to a wireless network and signed in to an iCloud account, to enter standby mode with Safari and Mail applications launched and all system settings left at default. Battery life varies by use and configuration. See www.apple.com/batteries for more information.
+            </li>
+            <li>
+              Weight varies by configuration and manufacturing process.
+            </li>
+            <li>
+              iMovie, GarageBand, Pages, Numbers, and Keynote are available on the Mac App Store. Downloading apps requires an Apple ID and a device that is compatible with the OS version required for each app.
+            </li>
+            <li>
+              PVC-free AC power cord available in all regions except India and South Korea.
+            </li>
+            <li>
+              MacBook Pro achieved a Gold rating from EPEAT in the U.S. and Canada.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!--Link hiehearchy-->
+      <div class= "left-justify">
+        <p class="legal-jargon">
+          <a class="grey-link" href="https://www.apple.com/"><image class="cover" src="https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/breadcrumbs/apple/icon_large.svg" alt="apple icon"/></a> >
+          <a class="grey-link" href="https://www.apple.com/mac/">Mac</a> >
+          <a class="grey-link" href="https://www.apple.com/macbook-pro/">MacBook Pro</a> >
+          Technical Specifications
         </p>
       </div>
-      <hr>
-      <div>
-        <a class="grey-link" href="https://www.apple.com/">A apple Icon</a> >
-        <a class="grey-link" href="https://www.apple.com/mac/">Mac</a> >
-        <a class="grey-link" href="https://www.apple.com/macbook-pro/">MacBook Pro</a> >
-        <p>Technical Specifications</p>
-      </div>
+      <!--All the LINKS-->
       <div class="top">
         <div>
           <h5>Shop and Learn</h5>
@@ -600,16 +765,22 @@
           <a class="grey-link" href="https://www.apple.com/contact/">Contact Apple</a>
         </div>
       </div>
-      <div class="legal-jargon">
+      <!--More stuff-->
+      <div class="legal-jargon divide">
         <p>More ways to shop: Visit an <a href="https://www.apple.com/retail/">Apple Store</a>, call 1-800-My-Apple, or <a href="https://locate.apple.com/">find a reseller</a></p>
       </div>
-      <hr>
+      <!--Copy right and country-->
       <div class="row">
-        <div class="column">
+        <div class="column space-between">
+          <div>
           <p class="legal-jargon">Copyright @ 2018 Apple Inc. All rights reserved.</p>
-          <img src="" alt="american buble"/>
-          <a class="grey-link" href="https://www.apple.com/choose-country-region/">United States</a> 
+          </div>
+          <div class="column">
+            <img src="https://images.apple.com/ac/flags/1/images/us/16.png" alt="american buble"/>
+            <a class="grey-link" href="https://www.apple.com/choose-country-region/">United States</a>
+          </div>
         </div>
+        <!--Even MORE links-->
         <div class="column">
           <a class="grey-link" href="https://www.apple.com/privacy/privacy-policy/">Private Policy</a> |
           <a class="grey-link" href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a> |
